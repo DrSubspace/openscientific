@@ -1,0 +1,15 @@
+title: OpenScientific
+description: Open science news, discoveries, and explainers.
+url: https://www.openscientific.org
+theme: minima   # easy starter; you can swap later for any theme
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+markdown: kramdown
+permalink: /:categories/:title/
+collections:
+  category:
+    output: true
+defaults:
+  - scope: {path: "" , type: "posts"}
+    values: {layout: post}
