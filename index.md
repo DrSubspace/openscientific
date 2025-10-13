@@ -1,7 +1,5 @@
 ---
-layout: home
-title: Latest
+layout: home-grid
+title: OpenScientific
+permalink: /
 ---
-
-Welcome to **OpenScientific** — concise, clear science news.  
-Browse the latest posts below 👇
